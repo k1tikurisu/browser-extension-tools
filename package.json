@@ -1,0 +1,26 @@
+{
+  "name": "zenn-sources",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "yarn@4.3.1",
+  "scripts": {
+    "lint": "biome check .",
+    "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "format": "biome check  --write --unsafe . && yarn stylelint --fix"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "stylelint": "16.6.1",
+    "stylelint-config-css-modules": "4.4.0",
+    "stylelint-config-recess-order": "5.0.1",
+    "stylelint-config-standard": "36.0.0"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "use yarn instead",
+    "yarn": "4.3.1"
+  },
+  "workspaces": [
+    "extensions/*"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-recess-order",
+    "stylelint-config-standard",
+    "stylelint-config-css-modules"
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "value-keyword-case": null
+  },
+  "ignoreFiles": ["wiki/**/*.css", "lp/**/*.css", "mobile/**/*.css"]
+}

@@ -1,0 +1,26 @@
+.container {
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.name {
+  display: block;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
