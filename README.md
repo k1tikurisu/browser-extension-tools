@@ -13,3 +13,5 @@ yarn workspace wxt dev
 yarn workspace plasmo dev
 yarn workspace extension-js dev
 ```
+
+該当ディレクトリまで`cd`して、`npm install && npm run dev`などすることも可能です
